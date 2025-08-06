@@ -1,0 +1,2 @@
+export SGLANG_TORCH_PROFILER_DIR=/data/hbb2/profile_log
+python -m sglang.bench_offline_throughput --model-path /data/hbb2/model/Meta-Llama-3-8B-Instruct --dataset-name random --num-prompts 10 --profile --mem-frac=0.8
